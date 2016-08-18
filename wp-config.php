@@ -94,7 +94,7 @@ if(!get_option('default_plugins_activated')){
 	activate_plugin( 'wp-bluemix-objectstorage/objectstorage.php' );
 	activate_plugin( 'stops-core-theme-and-plugin-updates/main.php');
 	activate_plugin( 'jonradio-private-site');
-	activate_plugin( 'json-rest-api');
+	activate_plugin( 'rest-api');
 
 	if(!get_option('_disable_updates')){
   		update_option('_disable_updates', array(
