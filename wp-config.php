@@ -93,7 +93,7 @@ if(!get_option('default_plugins_activated')){
 	update_option('default_plugins_activated', "1");
 	activate_plugin( 'wp-bluemix-objectstorage/objectstorage.php' );
 	activate_plugin( 'stops-core-theme-and-plugin-updates/main.php');
-	activate_plugin( 'rest-ap/plugin.php');
+	activate_plugin( 'rest-api/plugin.php');
 
 	if(!get_option('_disable_updates')){
   		update_option('_disable_updates', array(
